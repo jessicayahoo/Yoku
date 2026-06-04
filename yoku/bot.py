@@ -83,7 +83,7 @@ def force(update, context):
 def main_loop():
     while True:
         search_and_notify(bot)
-        s = randint(1000, 10000)
+        s = randint(300, 900)
         print(f"Sleeping for {s}s")
         time.sleep(s)
 
