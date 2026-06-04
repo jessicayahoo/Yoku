@@ -1,1 +1,1 @@
-worker: yoku
+worker: python -m yoku.bot
